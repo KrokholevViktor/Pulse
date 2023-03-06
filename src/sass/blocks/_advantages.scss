@@ -32,12 +32,28 @@
     &__icon {
         &_animated {
             animation-name: heartbeat;
-            animation-duration: 2s;
+            animation-duration: 4s;
             animation-timing-function: ease;
-            animation-iteration-count: infinite;
+            animation-iteration-count: 1;
             &:hover {
                 animation-play-state: paused;
             }
+        }
+    }
+    .animate__bounce {
+        animation-duration: 4s;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
+    .animate__flip {
+        animation-duration: 4s;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+        &:hover {
+            animation-play-state: paused;
         }
     }
 }
